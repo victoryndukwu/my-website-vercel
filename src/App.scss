@@ -1,0 +1,11 @@
+@import "./GlobalStyles/globalstyles.css";
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: var(--black);
+  // background-color: pink;
+  color: var(--white);
+  // min-height: 100vh;
+  // /* color: var(--black); */
+}

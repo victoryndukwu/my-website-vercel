@@ -1,0 +1,70 @@
+@import "../../GlobalStyles/globalstyles.css";
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100vw;
+  // height: 40vh;
+  &-title {
+    font-size: 100px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    @media screen and (max-width: 414px) {
+      max-width: 90%;
+      font-size: 50px;
+    }
+  }
+
+  &-text {
+    text-align: left;
+    max-width: 90%;
+    line-height: 30px;
+    font-size: 20px;
+    @media screen and (max-width: 414px) {
+      max-width: 95%;
+      font-size: 16px;
+    }
+  }
+}
+.me {
+  color: var(--black);
+  font-size: 150px;
+
+  // font-family: var(--krona-font);
+  // -webkit-text-fill-color: transparent;
+  //   -webkit-text-stroke-width: 5px;
+  @media screen and (max-width: 414px) {
+    max-width: 95%;
+    font-size: 100px;
+    font-weight: lighter;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+
+
+  // @media screen and (max-width: 414px) {
+  //   flex-direction: row;
+  // }
+}
+
+.cta {
+  width: 250px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+  a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+  }
+}

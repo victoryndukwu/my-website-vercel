@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+
+:root {
+  /************ color Pallete ***************/
+  --white: #fff;
+  --black: #000;
+  --dark-blue: #14213d;
+  --grey: #e6e6e6;
+  --purple: #7209b7;
+  /****************** Fonts *****************/
+  --body-font: "Comfortaa", cursive;
+  --thick-font: "Sarpanch", sans-serif;
+  --krona-font: "Krona One", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+}
+/*# sourceMappingURL=globalstyles.css.map */
